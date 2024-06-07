@@ -41,15 +41,15 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    fun div (int a, int b):Int {
+    fun div (a: Int, b: Int):Int {
         return a/b;
     }
 
-    fun div1 (int a, int b):Int {
+    fun div1 (a: Int, b: Int):Int {
         return 0/b;
     }
 
-    fun div2 (int a, int b):Int {
+    fun div2 (a: Int, b: Int):Int {
         return a/0;
     }
 
